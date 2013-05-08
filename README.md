@@ -1,15 +1,18 @@
 # OpenGL compute shader version of aobench
 
-![aobench_cs](https://github.com/syoyo/aobench_cs/blob/master/aobench_cs.png?raw=true)
+![aobench_cs_nv](https://github.com/syoyo/aobench_cs/blob/master/aobench_cs.png?raw=true)
+![aobench_cs_radeon](https://github.com/syoyo/aobench_cs/blob/master/aobench_glcompute_7970.png?raw=true)
 
 ## Requirements
+
+You'll be interested in Erwin's fork https://github.com/erwincoumans/aobench_cs for easy to build/run on Windows/Mac/Linux environment.
 
 ### Hardware
 
 OpenGL compute shader capable hardware and driver. Currently,
 
-* NVIDIA GeForce
-* AMD Radeon
+* NVIDIA GeForce(310 or later driver)
+* AMD Radeon(Catalyst 13.4 or later driver)
 
 is said to be able to run compute shader.
 
